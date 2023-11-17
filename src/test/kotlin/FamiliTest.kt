@@ -1,8 +1,9 @@
+import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 
 class FamiliTest {
 
-    @org.junit.Test
+    @Test
     fun TestMotherData() {
         val myMother = Mother("Марина", 37, "Замужем")
         assertEquals("Марина", myMother.name)
